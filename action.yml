@@ -1,4 +1,4 @@
-name: 'james'
+name: 'james2'
 description: 'Provide a description here'
 author: 'Your name or organization here'
 inputs:
@@ -6,6 +6,8 @@ inputs:
     required: true
     description: 'input description here'
     default: 'default value if applicable'
+# main.ts: core.setOutput('time', new Date().toTimeString())
+# do we need to declare the output to see it in the web logs? it's blank so far
 runs:
   using: 'node16'
   main: 'dist/index.js'
