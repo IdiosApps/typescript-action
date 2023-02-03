@@ -8,9 +8,6 @@ inputs:
     default: 'default value if applicable'
 # main.ts: core.setOutput('time', new Date().toTimeString())
 # do we need to declare the output to see it in the web logs? it's blank so far
-outputs:
-  time:
-    description: The time the action completed at
 runs:
   using: 'node16'
   main: 'dist/index.js'
